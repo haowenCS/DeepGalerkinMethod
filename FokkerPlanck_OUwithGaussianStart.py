@@ -9,6 +9,7 @@ import numpy as np
 import scipy as sp
 import matplotlib.pyplot as plt
 
+tf.compat.v1.disable_eager_execution()
 # %% Parameters
 
 # OU process parameters 
